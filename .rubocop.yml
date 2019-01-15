@@ -1,0 +1,16 @@
+AllCops:
+  Exclude:
+    - curvy_poker.gemspec
+
+Documentation:
+  Enabled: false
+
+ClassAndModuleChildren:
+  Enabled: false
+
+LineLength:
+  Max: 90
+
+# MethodLength:
+#   Max: 15
+  

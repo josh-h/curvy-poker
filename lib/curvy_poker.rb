@@ -1,0 +1,16 @@
+# frozen_string_literal: true
+
+require_relative 'curvy_poker/core_ext/class/descendants'
+require_relative 'curvy_poker/version'
+require_relative 'curvy_poker/hand'
+require_relative 'curvy_poker/game'
+require_relative 'curvy_poker/ranking/x_of_a_kind'
+require_relative 'curvy_poker/ranking/rank'
+require_relative 'curvy_poker/ranking/pair_rank'
+require_relative 'curvy_poker/ranking/highcard_rank'
+require_relative 'curvy_poker/ranking/two_pair_rank'
+require_relative 'curvy_poker/ranking/three_of_a_kind_rank'
+require_relative 'curvy_poker/ranking/straight_rank'
+require_relative 'curvy_poker/ranking/full_house_rank'
+require_relative 'curvy_poker/ranking/four_of_a_kind_rank'
+require_relative 'curvy_poker/cli'

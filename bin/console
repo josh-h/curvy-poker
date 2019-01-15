@@ -1,0 +1,13 @@
+#!/usr/bin/env ruby
+# frozen_string_literal: true
+
+require 'bundler/setup'
+require 'curvy_poker'
+require 'pry'
+
+# FIXME: Remove this
+def hand(str)
+  CurvyPoker::Hand.new str
+end
+
+Pry.start

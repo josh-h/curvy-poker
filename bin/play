@@ -1,0 +1,8 @@
+#!/usr/bin/env ruby
+# frozen_string_literal: true
+
+require 'bundler/setup'
+require 'curvy_poker'
+
+# TODO: check ARGV for '--help'
+CurvyPoker::CLI.new.start(ARGF.each_line)
